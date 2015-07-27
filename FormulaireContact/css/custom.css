@@ -1,0 +1,41 @@
+#main{
+	margin-top: 3em;
+}
+#main2{
+	margin-top: 4em;
+}
+.formpack{
+	padding-right: 0em;
+}
+nav{
+    margin-bottom: 4em;
+}
+nav ul li a {
+    font-family: Titillium,sans-serif;
+    font-size: 1.5rem;
+    line-height: 4.4rem;
+    padding: 0px 20px;
+    font-weight: 500;
+    color: #FFF;
+    display: inline-block;
+    border-left: 1px solid #000;
+    border-right: 1px solid #222;
+        border-right-width: 1px;
+        border-right-style: solid;
+
+}
+.input-sm{
+    border-radius: 0px;
+}
+#signIn{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
+
+#signInul{
+    padding: 0em;
+    margin-right: 0em;
+}
