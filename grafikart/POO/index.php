@@ -1,5 +1,10 @@
 <?php
-    require 'personnage.php';
+
+    // require 'personnage.php';
+    function __autoload($class_name){
+        require 'class/'.$class_name.'.php';
+    }
+
     // use Roleplay\Personnage as Personnage;
     $merlin = new Personnage('Merlin');
     $harry = new Personnage('Harry');
